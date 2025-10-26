@@ -1,0 +1,15 @@
+{
+  "name": "telegram-voting-bot-mongo",
+  "version": "1.0.0",
+  "description": "Telegram voting bot (Node.js) storing votes in MongoDB",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.0.0",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
